@@ -50,7 +50,7 @@ func main() {
 }
 
 func send_sql_request(req string) ([]byte, error) {
-	cmd := exec.Command("mysql", "-uu68871", "-p7773311", "-D", "u68871", "-e", req)
+	cmd := exec.Command("mysql", "-uu68869", "-p2604335", "-D", "u68869", "-e", req)
 	output, err := cmd.CombinedOutput()
 	return output, err
 }
